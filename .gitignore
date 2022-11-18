@@ -1,2 +1,8 @@
 #vscode
 .vscode/
+
+# creo que es npm
+*.json
+
+#node
+/node_modules/

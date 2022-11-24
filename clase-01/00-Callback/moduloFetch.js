@@ -14,13 +14,3 @@ fetchData(`${API}/products`, function (error1, data1){
 		});
 	});
 });
-
-
-
-
-
-
-
-
-
-export default fetchData;

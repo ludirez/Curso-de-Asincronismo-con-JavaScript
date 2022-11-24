@@ -22,11 +22,10 @@ function greeting(name) {
 }
 
 setTimeout(greeting, 2000, 'Res')//otra manera
+//es una función que recibe otra y un tiempo d espera
 
-setTimeout(()=>greeting('Dias'), 2000)//otra manera
+setTimeout(() => greeting('Dias'), 2000)//otra manera
 
-setTimeout(() => {//otra manera
+setTimeout(() => {      //otra manera
     return greeting('luis');
 }, 2000);
-
-setTimeout(greeting, 2000, 'Alfred') //otra manera
